@@ -120,28 +120,9 @@ export default function App(props: Props) {
             of wireless communications.
           </Typography>
         </Box>
-        <Box id="disclosure" sx={{ mb: 6 }}>
-          <Typography variant="h4" gutterBottom>
-            2. Responsible Disclosure
-          </Typography>
-          <Typography variant="body1" sx={{ mb: 2 }}>
-            All experimental demonstrations of the proposed method in this work
-            were conducted in-house, and we executed no attacks on devices
-            outside the laboratory. To avoid direct impact on third parties, we
-            have not published the source code of the attack tool implemented
-            for our proof-of-concept. Furthermore, to prevent disadvantage to
-            third-party organizations, we have anonymized the details of the
-            targeted site. However, to demonstrate the fairness of the
-            experiments, we have disclosed a minimum of information such as the
-            model and operation system of the devices used. We responsibly
-            disclosed our findings to a hotspot vendor used in this work in June
-            2024. The vendor argued that the findings were not a vulnerability
-            of the hotspots, but a flaw in the Internet itself.
-          </Typography>
-        </Box>
         <Box id="demo" sx={{ mb: 6 }}>
           <Typography variant="h4" gutterBottom>
-            3. Demo
+            2. Demo
           </Typography>
           <Typography variant="body1" sx={{ mb: 2 }}>
             Below is a demonstration of the MITP attack:
@@ -171,9 +152,28 @@ export default function App(props: Props) {
             />
           </Box>
         </Box>
+        <Box id="disclosure" sx={{ mb: 6 }}>
+          <Typography variant="h4" gutterBottom>
+            3. Responsible Disclosure
+          </Typography>
+          <Typography variant="body1" sx={{ mb: 2 }}>
+            All experimental demonstrations of the proposed method in this work
+            were conducted in-house, and we executed no attacks on devices
+            outside the laboratory. To avoid direct impact on third parties, we
+            have not published the source code of the attack tool implemented
+            for our proof-of-concept. Furthermore, to prevent disadvantage to
+            third-party organizations, we have anonymized the details of the
+            targeted site. However, to demonstrate the fairness of the
+            experiments, we have disclosed a minimum of information such as the
+            model and operation system of the devices used. We responsibly
+            disclosed our findings to a hotspot vendor used in this work in June
+            2024. The vendor argued that the findings were not a vulnerability
+            of the hotspots, but a flaw in the Internet itself.
+          </Typography>
+        </Box>
         <Box id="references" sx={{ mb: 6 }}>
           <Typography variant="h4" gutterBottom>
-            5. References
+            4. References
           </Typography>
           <Section
             title="Peer-Reviewed Journal Paper"
