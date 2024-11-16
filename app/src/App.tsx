@@ -278,7 +278,7 @@ function TerminalDisplay() {
       >
         <div>[*] Initiating attack sequence...</div>
         <div>[*] Target: SSL/TLS protected communications</div>
-        <div>[*] Method: Captive Portal redirect exploitation</div>
+        <div>[*] Method: Captive Portal redirect abuse</div>
         <div>[*] Status: Undetectable by victim</div>
         <div style={{ color: "#00ff00" }}>[+] Attack ready to deploy</div>
       </Box>
