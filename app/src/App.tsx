@@ -182,8 +182,8 @@ export default function App(props: Props) {
               <React.Fragment key="eprint">
                 Keiichiro KIMURA, Hiroki KUZUNO, Yoshiaki SHIRAISHI and Masakatu
                 MORII. "Man-in-the-Portal: Breaking SSL/TLS Silently Abusing
-                Captive Portal" Journal of Information Processing (JIP), To
-                appear.
+                Captive Portal" Journal of Information Processing (JIP), 
+                Vol.32, No.65, pp.1066-1081, doi: 10.2197/ipsjjip.32.1066, (2024).
               </React.Fragment>,
             ]}
           />
